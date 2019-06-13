@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+}
+
+.active-field {
+	color: #fff;
+	display: block;
+}
+
+.main-content-card {
+	width: 30%;
+}
+
+.main-content-card__head {
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+.main-content-card--text {
+	padding-bottom: 30px;
+	display: block;
+}
+
+#main-content {
+	width: 1000px;
+	height: 500px;
+	border: 2px solid black;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	background-color: #2b3040;
+	color: #878b9d;
+}
+
+.main-content-card__head {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-content-card__item {
+	display: none;
+	text-align: center;
+}
